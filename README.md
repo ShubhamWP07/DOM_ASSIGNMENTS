@@ -247,3 +247,81 @@ goblin.style.backgroundColor = "#82bb30"
 let wizard  = document.querySelector(".clash-card__unit-stats--wizard")
 wizard.style.backgroundColor = "#4facff"
 ```
+
+# Question 5
+![Screenshot (79)](https://user-images.githubusercontent.com/97464092/217028307-050c22e8-3286-4866-8542-d0b4106d8bb9.png)
+
+```
+// Adding Button
+
+let btn = document.createElement("button");
+let btntxt = document.createTextNode("Pro Subscription");
+btn.appendChild(btntxt);
+btn.classList.add("btn")
+btn.style.border = "none"
+btn.style.fontFamily = "none";
+
+let contact_btn = document.querySelector(".btn")
+// console.log(contact_btn)
+contact_btn.style.marginLeft = "350px"
+
+let btn_loaction = document.querySelector(".nav-center");
+// console.log(btn_loaction)
+btn_loaction.appendChild(btn);
+
+
+// Adding Recipes
+
+let chinise = document.createElement("h3");
+let ch_txt = document.createTextNode("Chinese (7)")
+chinise.appendChild(ch_txt)
+chinise.style.fontSize = "24px"
+chinise.style.color = "brown"
+chinise.style.fontWeight = "300"
+
+let ch_location = document.querySelector(".tags-container");
+console.log(ch_location);
+ch_location.appendChild(chinise)
+
+// Adding card
+
+let card_div = document.createElement("div");
+card_div.classList.add("card")
+
+let card_div_location = document.querySelector(".recipe-gallery")
+console.log(card_div)
+card_div_location.appendChild(card_div)
+
+// Adding img
+
+let pizza_img = document.createElement("img")
+pizza_img.src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fpizza%2F&psig=AOvVaw3ilqaF5xn8LJFei-6Q3Iuk&ust=1675600469823000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLiFm6jw-_wCFQAAAAAdAAAAABAE"
+pizza_img.src.appendChild(pizza_img);
+pizza_img.classList.add("recipe-img")
+
+let pizza_img_location = document.querySelector(".recipe-gallery card_div ")
+pizza_img_location.appendChild(card_div)
+```
+
+# Question 6
+### Task_01
+![Screenshot (77)](https://user-images.githubusercontent.com/97464092/217029430-16e4b84f-b321-4406-8c24-d36467c68289.png)
+
+```
+// Changing Logo
+
+let logo = document.querySelector(".logo");
+// console.log(logo);
+logo.src = "https://ineuron.ai/images/ineuron-logo.png";
+```
+
+### Task_02
+![Screenshot (78)](https://user-images.githubusercontent.com/97464092/217029780-226721a3-d603-440f-bdc8-330524182852.png)
+
+```
+// Changing Price
+
+let price = document.querySelector(".app_price span");
+console.log(price);
+price.innerText = "$10"
+```
